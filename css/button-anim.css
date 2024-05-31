@@ -1,0 +1,15 @@
+.catalog-button:hover{
+    transform: scale(1.2);
+}
+.button-my-cake:hover{
+    transform: scale(1.2);
+}
+.button-more:hover{
+    transform: scale(1.2);
+}
+.form-button:hover{
+    transform: scale(1.2);
+}
+.cake-card:hover{
+    transform: scale(1.1);
+}
