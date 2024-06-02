@@ -13,3 +13,7 @@
 .cake-card:hover{
     transform: scale(1.1);
 }
+/* img hover galaty */
+.img-galary:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,232 @@
+@media screen and (max-width: 768px){
+    header{
+        background-image: none;
+        background-color: #081130;
+        height: 1000px;
+    }
+    /* header menu */
+    .logotip{
+        width: 80px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    .header-info{
+        width: 250px;
+    }
+    .locotion{
+        margin-left: 10px;
+        width: 120px;
+    }
+    .location-svg{
+        margin: 10px 5px 0 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .p-locotion{
+        font-size: 10px;
+        width: 90px;
+    }
+    .contact{
+        width: 120px;
+    }
+    .number{
+        font-size: 10px;
+    }
+    .number-svg{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .contact-number{
+        font-size: 10px;
+    }
+    .p-contact{
+        font-size: 10px;
+        width: 100px;
+        margin: 10px auto 0 auto;
+    }
+    /* header zagolovok */
+    .header-zagolovok{
+        margin: 150px auto ;
+        width: 330px;
+    }
+    .delicious{
+        margin-bottom: 40px;
+    }
+    .h1-zagolovok{
+        width: 330px;
+        margin: 40px auto;
+        font-size: 24px;
+    }
+    .p-zagolovok{
+        width: 330px;
+        font-size: 16px;
+        margin: 40px auto;
+    }
+    .button-info{
+        margin-top: 80px;
+    }
+    .svg-container{
+        display: none;
+    }
+    /* cake-assorti */
+    .cake-assorti{
+        height: 4500px;
+        margin-top: 0;
+    }
+    .h1-cake{
+        font-size: 24px;
+    }
+    .cake-grid-container{
+        width: 300px;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,9fr);
+    }
+    .cake-card{
+        width: 300px;
+    }
+    .img-card{
+        width: 300px;
+    }
+    /* my-cake-container */
+    .my-cake-container{
+        background-image: url(../img/my-cake-container.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .my-cake-info{
+        margin-top: 40px;
+        width: 330px;
+        margin: 40px auto 0 auto;
+    }
+    .h1-my-cake2{
+        width: 330px;
+        margin: 40px auto;
+        font-size: 22px;
+    }
+    .p-my-cake{
+        width: 330px;
+        margin: 40px auto;
+        font-size: 16px;
+    }
+    .phone-img{
+        display: none;
+    }
+    .img-top-shadow{
+        display: none;
+    }
+    .button-my-cake{
+        margin-top: 60px;
+    }
+    /* conditer container */
+    .conditer-container{
+        height: 600px;
+    }
+    .canditer-info{
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h1-canditer{
+        font-size: 24px;
+        width: 330px;
+    }
+    .conditer-container2{
+        display: none;
+    }
+    .li-conditer-info{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .img-top-shadow2{
+        display: none;
+    }
+    /* feedback container */
+    .feedback-container{
+        display: none;
+    }
+    /* galary container */
+    .galary-container{
+        width: 360px;
+        height: 2300px;
+    }
+    .h1-galary{
+        font-size: 24px;
+    }
+    .p-galary{
+        font-size: 16px;
+    }
+    .galary-grid{
+        grid-template-columns: repeat(1,9fr);
+    }
+    .img-galary{
+        width: 330px;
+        margin: 0 auto;
+    }
+    .bottom-shadow-img2{
+        display: none;
+    }
+    /* large order container */
+    .large-order-container{
+        position: relative;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .large-order{
+        position: absolute;
+        margin: 60px auto;
+        width: 340px;
+        height: 450px;
+    }
+    .h1-large-order{
+        font-size: 24px;
+    }
+    .p-large-order{
+        font-size: 16px;
+    }
+    .form-container{
+        display: block;
+        text-align: center;
+    }
+    .input-form{
+        width: 250px;
+        height: 40px;
+        margin: 10px auto;
+    }
+    .form-button{
+        height: 40px;
+        line-height: 40px;
+        margin: 20px auto 20px auto;
+    }
+    .a-form{
+        font-size: 16px;
+    }
+    .footer-form{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .p-checkbox{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    /* footer */
+    .footer{
+        width: auto
+    }
+    .footer-info1{
+    }
+    .p-footer1{
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .footer-info2{
+        text-align: center;
+    }
+    .p-footer-info2{
+        font-size: 12px;
+    }
+}
