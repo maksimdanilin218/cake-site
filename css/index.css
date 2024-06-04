@@ -6,6 +6,9 @@ hr{
     background-color: black;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-image: url(../img/first-screen.png);
     background-repeat: no-repeat;
@@ -18,11 +21,20 @@ header{
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .logotip {
-    width: 120px;
-    height: 80px;
+    display: block;
+    text-align: center;
+}
+.img-logotip{
+    width: 60px;
+    height: 60px;
+}
+.name-logo{
+    margin: 0;
+    color: #a80ecf;
+    font-size: 18px;
 }
 .header-info {
     width: 600px;
@@ -67,9 +79,11 @@ header{
 }
 /* catalog info */
 .header-zagolovok {
-    width: 700px;
-    margin-top: 150px;
+    width: 550px;
+    padding-left: 50px;
+    margin-top: 120px;
     margin-left: 200px;
+
 }
 .delicious {
     width: 140px;
@@ -100,7 +114,7 @@ header{
     justify-content: space-between;
 }
 .catalog-button {
-    background-color: gold;
+    background-color:  #a80ecf;
     width: 180px;
     height: 40px;
     line-height: 40px;
@@ -173,7 +187,7 @@ header{
 }
 .buy-cake {
     text-align: center;
-    background-color: gold;
+    background-color:  #a80ecf;
     width: 120px;
     height: 40px;
     line-height: 40px;
@@ -231,7 +245,7 @@ header{
     font-size: 18px;
 }
 .button-my-cake {
-    background-color: gold;
+    background-color:  #a80ecf;
     border-radius: 15px;
     width: 220px;
     height: 40px;
@@ -285,7 +299,7 @@ li::marker{
 .button-more{
     width: 200px;
     height: 40px;
-    background-color: gold;
+    background-color:  #a80ecf;
     border-radius: 15px;
     line-height: 40px;
     text-align: center;
@@ -414,14 +428,14 @@ li::marker{
 .prev-button{
     width: 40px;
     height: 40px;
-    background-color: gold;
+    background-color:  #a80ecf;
     border-radius: 50%;
     font-size: 20px;
 }
 .next-button{
     width: 40px;
     height: 40px;
-    background-color: gold;
+    background-color:  #a80ecf;
     border-radius: 50%;
     font-size: 20px;
     margin-left: 30px;
@@ -482,7 +496,6 @@ li::marker{
     margin-top: -20px;
     max-width: 100%;
     width: auto;
-    height: 300px;
     background-size: 100%;
 }
 .large-order {
@@ -513,10 +526,13 @@ li::marker{
     height: 50px;
     border-radius: 10px;
 }
+.input-form:placeholder-shown{
+    border-color: #081130;
+}
 .form-button {
     width: 250px;
     height: 50px;
-    background-color: gold;
+    background-color:  #a80ecf;
     border-radius: 15px;
     line-height: 50px;
     text-align: center;
@@ -548,6 +564,7 @@ li::marker{
     padding-right: 30px;
 }
 .footer-info2 {
+    text-align: center;
     display: flex;
     justify-content: center;
 }

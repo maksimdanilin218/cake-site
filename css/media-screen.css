@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px){
     header{
-        background-image: none;
+        background-image: url(../img/mobile-bgi1.jpg);
+        background-position: center;
         background-color: #081130;
         height: 1000px;
     }
@@ -9,6 +10,13 @@
         width: 80px;
         height: 60px;
         margin-left: 10px;
+    }
+    .img-logotip{
+        width: 40px;
+        height: 40px;
+    }
+    .name-logo{
+        font-size: 10px;
     }
     .header-info{
         width: 250px;

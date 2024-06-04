@@ -1,19 +1,19 @@
-.catalog-button:hover{
+.catalog-button:hover, .catalog-button:active {
     transform: scale(1.2);
 }
-.button-my-cake:hover{
+.button-my-cake:hover, .button-my-cake:active{
     transform: scale(1.2);
 }
-.button-more:hover{
+.button-more:hover, .button-more:active{
     transform: scale(1.2);
 }
-.form-button:hover{
+.form-button:hover, .form-button:active{
     transform: scale(1.2);
 }
-.cake-card:hover{
+.cake-card:hover, .cake-card:active{
     transform: scale(1.1);
 }
 /* img hover galaty */
-.img-galary:hover{
+.img-galary:hover, .img-galary:active{
     transform: scale(1.1);
 }

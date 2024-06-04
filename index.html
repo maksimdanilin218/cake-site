@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/logotip2.png">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/button-anim.css">
     <link rel="stylesheet" href="./css/media-screen.css">
@@ -15,7 +16,10 @@
 <body>
     <header>
         <div class="header-menu">
-            <img class="logotip" src="./img/logotip.png" alt="">
+            <div class="logotip">
+                <img src="./img/logotip2.png" class="img-logotip" alt="">
+                <h1 class="name-logo">Sugar Bliss Cupcakes</h1>
+            </div>
             <div class="header-info">
                 <div class="locotion">
                     <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
@@ -39,7 +43,7 @@
             <p class="p-zagolovok">Приготовим за 3 часа в день заказа. Доставка на авто в холодильнике.</p>
             <div class="button-info">
                 <div class="catalog-button">
-                    <a class="a-catalog" href="">Перейти в каталог</a>
+                    <a class="a-catalog" href="#catalog">Перейти в каталог</a>
                 </div>
                 <div class="catalog-info1">
                     <p class="p-catalog-info">9 различных видов на выбор</p>
@@ -50,7 +54,7 @@
             <img class="leaf-svg" src="./img/leaf.png" alt="">
         </div>
     </header>
-    <div class="cake-assorti">
+    <div class="cake-assorti" id="catalog">
         <h1 class="h1-cake">Для любых событий и дорогих вам людей </h1>
         <div class="cake-grid-container">
             <div class="cake-card">
@@ -237,15 +241,15 @@
         <h1 class="h1-galary">Сделали более 3.000 заказов за 2 года</h1>
         <p class="p-galary">Посмотрите фото реальных заказов из нашего instagram</p>
         <div class="galary-grid">
-            <img src="./galary-img/galary-cake1.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake2.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake3.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake4.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake5.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake6.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake7.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake8.png" alt="" class="img-galary">
-            <img src="./galary-img/galary-cake9.png" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake1.png" title="Ягодный пир" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake2.png" title="Кокосовый рай" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake3.png" title="Шоколадный вихрь" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake4.png" title="Сладкое искушение" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake5.png" title="Шоколадный рассвет" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake6.png" title="Малиновая бомба" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake7.png" title="Ванильное небо" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake8.png" title="Радужная фея" alt="" class="img-galary">
+            <img src="./galary-img/galary-cake9.png" title="Клубничная симфония" alt="" class="img-galary">
         </div>
     </div>
     <div class="large-order-container">
@@ -254,9 +258,9 @@
             <h1 class="h1-large-order">Чтобы сделать заказ, укажите ваш телефон</h1>
             <p class="p-large-order">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</p>
             <div class="form-container">
-                <input class="input-form" type="tel" name="tel" placeholder="Номер телефона">
+                <input class="input-form"  type="tel" name="tel" placeholder="Номер телефона">
                 <div class="form-button">
-                    <a href="" class="a-form">Сделать заказ</a>
+                    <a href="" title="Оформить заказ?" class="a-form">Сделать заказ</a>
                 </div>
             </div>
             <div class="footer-form">
@@ -273,7 +277,7 @@
             <p class="p-footer1">Политика конфиденциальности</p>
         </div>
         <div class="footer-info2">
-            <p class="p-footer2">© nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН 0000000000000</p>
+            <p class="p-footer2">© nazvaniesaita.ru, 2054 <br> Название компании или ИП ОГРН 0000000000000</p>
         </div>
     </footer>
     <script src="./index.js"></script>
